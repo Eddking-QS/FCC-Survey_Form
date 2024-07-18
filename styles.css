@@ -8,13 +8,15 @@ h1 {
 
 p {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0;
 }
 
-label {
+label,
+legend {
     display: block;
 }
 
@@ -24,8 +26,21 @@ body {
     background-attachment: fixed;
 }
 
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 fieldset {
     border: none;
+    margin-bottom: 7px;
 }
 form {
     background-color: rgba(0, 0, 0, 0.5);
@@ -33,5 +48,53 @@ form {
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inline {
+    display: inline-block;
+    width: auto;
+}
+
+input[type='radio'] {
+    width: auto;
+}
+
+input[type='checkbox'] {
+    width: auto;
+}
+
+input[type='submit'] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.inline2 {
+    display: inline-block;
+    margin-left: 10px;
+    width: 96%;
+}
+
+input[type='file'] {
+    background-color: #000000;
+    border: none;
+    padding: 3px;
+    margin-left: 5px;
+    width: 69%;
+}
+
+input::placeholder {
+    color: black;
+}
+
+textarea::placeholder {
+    color: black;
 }

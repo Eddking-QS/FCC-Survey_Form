@@ -12,263 +12,261 @@
             This survey seeks to gather information on the impact of Artificial
             Intelligence on how students learn.
         </p>
-        <div class="background">
-            <form action="" method="post">
-                <fieldset>
-                    <label for="name">Name:</label>
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Enter your name"
-                        required
-                    />
-                </fieldset>
-                <fieldset>
-                    <label for="age">Age:</label>
-                    <input
-                        type="number"
-                        name="age"
-                        id="age"
-                        placeholder="Enter your age"
-                        min="18"
-                        required
-                    />
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email:</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Enter your email address"
-                        required
-                    />
-                </fieldset>
-                <fieldset>
-                    <label for="role"
-                        >What best describes your current role:</label
-                    >
-                    <select name="role" id="role" required>
-                        <option value="">Select an option</option>
-                        <option value="student">Student</option>
-                        <option value="teacher">Teacher</option>
-                        <option value="other">Other</option>
-                    </select>
-                </fieldset>
-                <fieldset>
-                    <label for="picture">Upload a picture (optional): </label
-                    ><input type="file" id="picture" name="picture" />
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        Do you prefer learning from teachers or using AI tools?
-                    </legend>
-                    <input
-                        type="radio"
-                        name="learning_preference"
-                        id="Teachers"
-                        value="Teachers"
-                        checked
-                        required
-                    /><label for="Teachers">Teachers</label>
-                    <input
-                        type="radio"
-                        name="learning_preference"
-                        id="weekly"
-                        value="weekly"
-                        required
-                    /><label for="weekly">AI Tools</label>
-                    <input
-                        type="radio"
-                        name="learning_preference"
-                        id="Both"
-                        value="Both"
-                        required
-                    /><label for="Both">Both</label>
-                </fieldset>
-                <fieldset>
-                    <legend>How often do you use AI tools for learning?</legend>
-                    <input
-                        type="radio"
-                        name="ai_usage"
-                        id="Very_Often"
-                        value="Very Often"
-                        required
-                        checked
-                    /><label for="Very_Often">Very Often</label>
-                    <input
-                        type="radio"
-                        name="ai_usage"
-                        id="Rarely"
-                        value="Rarely"
-                        required
-                    /><label for="weekly">Rarely</label>
-                    <input
-                        type="radio"
-                        name="ai_usage"
-                        id="Never"
-                        value="Never"
-                        required
-                    /><label for="never">Never</label>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        Do you think libraries are becoming less relevant with
-                        the rise of AI and online resources?
-                    </legend>
-                    <input
-                        type="radio"
-                        name="library_relevance"
-                        id="Yes"
-                        value="Yes"
-                        required
-                        checked
-                    /><label for="Yes">Yes</label>
-                    <input
-                        type="radio"
-                        name="library_relevance"
-                        id="No"
-                        value="No"
-                        required
-                    /><label for="No">No</label>
-                    <input
-                        type="radio"
-                        name="library_relevance"
-                        id="Not_Sure"
-                        value="Not Sure"
-                        required
-                    /><label for="Not_Sure">Not Sure</label>
-                </fieldset>
-                <fieldset>
-                    <label for="opinion"
-                        >How would you describe the current state of knowledge
-                        acquisition?</label
-                    >
-                    <textarea
-                        name="opinion"
-                        id="opinion"
-                        rows="4"
-                        cols="50"
-                        required
-                        placeholder="Share your opinion......"
-                        maxlength="100"
-                    ></textarea>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        Which AI tools do you use for learning? (Select all that
-                        apply)
-                    </legend>
-                    <input
-                        type="checkbox"
-                        name="tools"
-                        id="Google_Gemini"
-                        value="Google_Gemini"
-                        required
-                        checked
-                    /><label for="Google_Gemini">Google Gemini</label>
-                    <input
-                        type="checkbox"
-                        name="tools"
-                        id="ChatGPT"
-                        value="ChatGPT"
-                        required
-                    /><label for="ChatGPT">ChatGPT</label>
-                    <input
-                        type="checkbox"
-                        name="tools"
-                        id="Microsoft_Copilot"
-                        value="Microsoft_Copilot"
-                        required
-                    /><label for="Microsoft_Copilot">Microsoft Copilot</label>
-                    <input
-                        type="checkbox"
-                        name="tools"
-                        id="Perplexity"
-                        value="Perplexity"
-                        required
-                    /><label for="Perplexity">Perplexity AI</label>
-                    <input
-                        type="checkbox"
-                        name="tools"
-                        id="Merlin"
-                        value="Merlin"
-                        required
-                    /><label for="Merlin">Merlin AI</label>
-                </fieldset>
-                <fieldset>
-                    <legend>
-                        Which of these do you readily have access to for
-                        learning? (Select all that apply)
-                    </legend>
-                    <input
-                        type="checkbox"
-                        name="learning_resources"
-                        id="textbooks"
-                        value="textbooks"
-                        required
-                        checked
-                    /><label for="textbooks">Textbooks</label>
-                    <input
-                        type="checkbox"
-                        name="learning_resources"
-                        id="online_courses"
-                        value="online_courses"
-                        required
-                    /><label for="online_courses">Online Courses</label>
-                    <input
-                        type="checkbox"
-                        name="learning_resources"
-                        id="AI Tools"
-                        value="AI Tools"
-                        required
-                    /><label for="AI Tools">AI Tools</label>
-                    <input
-                        type="checkbox"
-                        name="learning_resources"
-                        id="Tutors"
-                        value="Tutors"
-                        required
-                    /><label for="Tutors">Tutors</label>
-                    <input
-                        type="checkbox"
-                        name="learning_resources"
-                        id="Libraries"
-                        value="Libraries"
-                        required
-                    /><label for="Libraries">Libraries</label>
-                </fieldset>
-                <fieldset>
-                    <label for="future"
-                        >What do you think the future of traditional education
-                        will be as AI advances?</label
-                    >
-                    <textarea
-                        name="future"
-                        id="future"
-                        rows="4"
-                        cols="50"
-                        required
-                        placeholder="Share your opinion......"
-                        maxlength="100"
-                    ></textarea>
-                </fieldset>
-                <fieldset>
-                    <input type="submit" value="Submit" />
-                    <input type="reset" value="Reset" />
-                </fieldset>
-            </form>
-        </div>
-        <footer>
-            <small>FCC Certificate Project</small> <br />
-            <small
-                >Background image credit:
-                <a
-                    href="https://yipinstitute.org/article/artificial-intelligence-in-education-helpful-or-hindrance"
-                    >yipinstitute</a
-                ></small
-            >
-        </footer>
+        <form action="" method="post">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    name="age"
+                    id="age"
+                    placeholder="Enter your age"
+                    min="18"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="role">What best describes your current role:</label>
+                <select name="role" id="role" required>
+                    <option value="">Select an option</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="picture" class="inline"
+                    >Upload a picture (optional): </label
+                ><input
+                    type="file"
+                    class="inline"
+                    id="picture"
+                    name="picture"
+                />
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Do you prefer learning from teachers or using AI tools?
+                </legend>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="Teachers"
+                    value="Teachers"
+                    checked
+                    required
+                /><label for="Teachers" class="inline2">Teachers</label>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="weekly"
+                    value="weekly"
+                    required
+                /><label for="weekly" class="inline2">AI Tools</label>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="Both"
+                    value="Both"
+                    required
+                /><label for="Both" class="inline2">Both</label>
+            </fieldset>
+            <fieldset>
+                <legend>How often do you use AI tools for learning?</legend>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Very_Often"
+                    value="Very Often"
+                    required
+                    checked
+                /><label for="Very_Often" class="inline2">Very Often</label>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Rarely"
+                    value="Rarely"
+                    required
+                /><label for="weekly" class="inline2">Rarely</label>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Never"
+                    value="Never"
+                    required
+                /><label for="never" class="inline2">Never</label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Do you think libraries are becoming less relevant with the
+                    rise of AI and online resources?
+                </legend>
+                <input
+                    type="radio"
+                    name="library_relevance"
+                    id="Yes"
+                    value="Yes"
+                    required
+                    checked
+                /><label for="Yes" class="inline2">Yes</label>
+                <input
+                    type="radio"
+                    name="library_relevance"
+                    id="No"
+                    value="No"
+                    required
+                /><label for="No" class="inline2">No</label>
+                <input
+                    type="radio"
+                    name="library_relevance"
+                    id="Not_Sure"
+                    value="Not Sure"
+                    required
+                /><label for="Not_Sure" class="inline2">Not Sure</label>
+            </fieldset>
+            <fieldset>
+                <label for="opinion"
+                    >How would you describe the current state of knowledge
+                    acquisition?</label
+                >
+                <textarea
+                    name="opinion"
+                    id="opinion"
+                    rows="4"
+                    cols="50"
+                    required
+                    placeholder="Share your opinion......"
+                    maxlength="100"
+                ></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Which AI tools do you use for learning? (Select all that
+                    apply)
+                </legend>
+                <input
+                    type="checkbox"
+                    name="tools"
+                    id="Google_Gemini"
+                    value="Google_Gemini"
+                    required
+                    checked
+                /><label for="Google_Gemini" class="inline2"
+                    >Google Gemini</label
+                >
+                <input
+                    type="checkbox"
+                    name="tools"
+                    id="ChatGPT"
+                    value="ChatGPT"
+                    required
+                /><label for="ChatGPT" class="inline2">ChatGPT</label>
+                <input
+                    type="checkbox"
+                    name="tools"
+                    id="Microsoft_Copilot"
+                    value="Microsoft_Copilot"
+                    required
+                /><label for="Microsoft_Copilot" class="inline2"
+                    >Microsoft Copilot</label
+                >
+                <input
+                    type="checkbox"
+                    name="tools"
+                    id="Perplexity"
+                    value="Perplexity"
+                    required
+                /><label for="Perplexity" class="inline2">Perplexity AI</label>
+                <input
+                    type="checkbox"
+                    name="tools"
+                    id="Merlin"
+                    value="Merlin"
+                    required
+                /><label for="Merlin" class="inline2">Merlin AI</label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Which of these do you readily have access to for learning?
+                    (Select all that apply)
+                </legend>
+                <input
+                    type="checkbox"
+                    name="learning_resources"
+                    id="textbooks"
+                    value="textbooks"
+                    required
+                    checked
+                /><label for="textbooks" class="inline2">Textbooks</label>
+                <input
+                    type="checkbox"
+                    name="learning_resources"
+                    id="online_courses"
+                    value="online_courses"
+                    required
+                /><label for="online_courses" class="inline2"
+                    >Online Courses</label
+                >
+                <input
+                    type="checkbox"
+                    name="learning_resources"
+                    id="AI Tools"
+                    value="AI Tools"
+                    required
+                /><label for="AI Tools" class="inline2">AI Tools</label>
+                <input
+                    type="checkbox"
+                    name="learning_resources"
+                    id="Tutors"
+                    value="Tutors"
+                    required
+                /><label for="Tutors" class="inline2">Tutors</label>
+                <input
+                    type="checkbox"
+                    name="learning_resources"
+                    id="Libraries"
+                    value="Libraries"
+                    required
+                /><label for="Libraries" class="inline2">Libraries</label>
+            </fieldset>
+            <fieldset>
+                <label for="future"
+                    >What do you think the future of traditional education will
+                    be as AI advances?</label
+                >
+                <textarea
+                    name="future"
+                    id="future"
+                    rows="4"
+                    cols="50"
+                    required
+                    placeholder="Share your opinion......"
+                    maxlength="100"
+                ></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </fieldset>
+        </form>
     </body>
 </html>
