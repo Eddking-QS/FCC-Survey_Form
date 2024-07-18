@@ -27,6 +27,8 @@ A simple survey form made with HTML and CSS. This is one of the projects require
 
 ## Live Demo
 
+This project is somewhat responsive however for the best experience view on a 1920x1080 screen. For mobile view, use desktop view and landscape orientation.
+
 [Survey Form](https://eddking-qs.github.io/FCC-Survey_Form/)
 
 ## Disclaimer
