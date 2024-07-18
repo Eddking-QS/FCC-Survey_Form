@@ -1,4 +1,37 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+}
+
 body {
-    background-image: url('images/studentAI.jpeg');
+    background-image: url('images/FigmaBg.jpg');
     background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    border: none;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
 }
