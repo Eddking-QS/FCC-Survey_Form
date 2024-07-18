@@ -20,7 +20,10 @@ A simple survey form made with HTML and CSS. This is one of the projects require
 **CSS**
 
 -   Box shadow
--
+-   attribute selectors
+-   pseudo-selectors
+-   classes
+-   rgba functions
 
 ## Live Demo
 
