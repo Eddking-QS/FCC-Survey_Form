@@ -3,15 +3,111 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
+        <title>Edwardking's Survey</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div>
-            <h1>Edwardking's Survey Form</h1>
-            <h2>
-                Thank you for taking the time to complete this survey project
-            </h2>
-        </div>
+        <h1>Edwardking's Survey Form</h1>
+        <p>
+            This survey seeks to gather information on the impact of Artificial
+            Intelligence on how students learn.
+        </p>
+        <form action="" method="post">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    name="age"
+                    id="age"
+                    placeholder="Enter your age"
+                    min="18"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <label for="role">What best describes your current role:</label>
+                <select name="role" id="role" required>
+                    <option value="">Select an option</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="picture">Upload a picture (optional): </label
+                ><input type="file" id="picture" name="picture" />
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Do you prefer learning from teachers or using AI tools?
+                </legend>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="Teachers"
+                    value="Teachers"
+                    checked
+                    required
+                /><label for="Teachers">Teachers</label>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="weekly"
+                    value="weekly"
+                    required
+                /><label for="weekly">AI Tools</label>
+                <input
+                    type="radio"
+                    name="learning_preference"
+                    id="Both"
+                    value="Both"
+                    required
+                /><label for="Both">Both</label>
+            </fieldset>
+            <fieldset>
+                <legend>How often do you use AI tools for learning?</legend>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Very_Often"
+                    value="Very Often"
+                    required
+                /><label for="Very_Often">Very Often</label>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Rarely"
+                    value="Rarely"
+                    required
+                /><label for="weekly">Rarely</label>
+                <input
+                    type="radio"
+                    name="ai_usage"
+                    id="Never"
+                    value="Never"
+                    required
+                /><label for="never">Never</label>
+            </fieldset>
+        </form>
     </body>
 </html>
