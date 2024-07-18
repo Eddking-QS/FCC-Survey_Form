@@ -1,1 +1,4 @@
-
+body {
+    background-image: url('images/studentAI.jpeg');
+    background-size: cover;
+}
