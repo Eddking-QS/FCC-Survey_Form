@@ -4,6 +4,12 @@
 
 A simple survey form made with HTML and CSS. This is one of the projects required to obtain the Responsive Web Design Certificate from freeCodeCamp.
 
+## Live Demo
+
+_This project is somewhat responsive however for the best experience view on a 1920x1080 screen. For mobile view, use desktop view and landscape orientation._
+
+View the web page here: [Survey Form](https://quintin-dev.github.io/Projects-Survey_Form/)
+
 ## Features
 
 **HTML**
